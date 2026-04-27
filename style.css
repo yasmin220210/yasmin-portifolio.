@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Mogra", system-ui;
+    background-color: rgba(150, 76, 219, 0.336);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgba(183, 0, 255, 0.61);
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0;
+
+}
+
+.mogra-regular {
+  font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Mogra", system-ui;
+} 
+
+.Sobre {
+    display: flex;
+   align-items: center;
+    background-color: rgba(182, 26, 255, 0.178);
+}
+
+.Sobre p {
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.minhaFoto {
+    height: 400px;
+    width: 400PX;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+   
+}
+
+.Projetos {
+    display: flex;
+   justify-content: space-between;
+   padding-left: 200px;
+   padding-right: 200px;
+}
+
+.imagemConstrução {
+    height: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+     
+}
+
+footer {
+align-items: center;
+height: 400px;
+display:flex ;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+background-color: rgba(198, 85, 250, 0.425);
+
+}
